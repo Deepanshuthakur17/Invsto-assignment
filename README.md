@@ -28,12 +28,12 @@ It was developed as part of the *Invsto Frontend Developer Assignment* using *Ne
 First, run the development server:
 
 ```bash
-npm install
-npm run dev
+`npm install`
+`npm run dev`
 
 Then open http://localhost:3000 to view the project in your browser.
 
-
+## Here are Details
 ---
 
 🌗 Dark Mode
@@ -60,6 +60,13 @@ public/dark-mode.jpg)
 (Add screenshots in the
 public/light-mode.jpg)
 
+## 📸 Screenshots
+
+### 🌞 Light Mode
+![Light Mode Screenshot](./assets/light-mode.png)
+
+### 🌙 Dark Mode
+![Dark Mode Screenshot](./assets/dark-mode.png)
 
 
 ---
