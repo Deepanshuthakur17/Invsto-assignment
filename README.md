@@ -48,12 +48,13 @@ Dark mode: Custom dark color palette with smooth transition.
 ---
 
 ## 📸 Screenshots
-
+<div align="center">
 ### 🌙 Dark Mode
-<img src="https://i.ibb.co/1txBHWdj/dark-mode.jpg" alt="Dark Mode Screenshot" width="600" height="450">
+<img src="https://i.ibb.co/1txBHWdj/dark-mode.jpg" alt="Dark Mode Screenshot" width="300" height="250">
 
 ### 🌞 Light Mode
-<img src="https://i.ibb.co/1F5ggtw/light-mode.jpg" alt="Light Mode Screenshot" width="600" height="450">
+<img src="https://i.ibb.co/1F5ggtw/light-mode.jpg" alt="Light Mode Screenshot" width="300" height="250">
+</div>
 ---
 
 🎥 Short Demo Video
