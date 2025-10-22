@@ -8,7 +8,7 @@ It was developed as part of the *Invsto Frontend Developer Assignment* using *Ne
 ## ✨ Features
 - Responsive design (mobile + desktop)
 - Dynamic pricing slider
-- Monthly / Yearly billing toggle with 25% discount
+- Monthly / Yearly billing toggle with -25% discount
 - Dark / Light theme with toggle button
 - Smooth transitions and animations
 - Clean, modern UI with custom color palette
@@ -27,7 +27,6 @@ It was developed as part of the *Invsto Frontend Developer Assignment* using *Ne
 
 First, run the development server:
 
-```bash
 `npm install`
 `npm run dev`
 
@@ -48,34 +47,21 @@ Dark mode: Custom dark color palette with smooth transition.
 
 ---
 
-📸 Screenshots
-
-🌞 Light Mode
-
-(Add screenshots in the public/light-mode.png
-public/dark-mode.jpg)
-
-🌙 Dark Mode
-
-(Add screenshots in the
-public/light-mode.jpg)
-
 ## 📸 Screenshots
 
-### 🌞 Light Mode
-![Light Mode Screenshot](./assets/light-mode.png)
-
 ### 🌙 Dark Mode
-![Dark Mode Screenshot](./assets/dark-mode.png)
+![Dark Mode Screenshot](https://i.ibb.co/1txBHWdj/dark-mode.jpg)
 
+### 🌞 Light Mode
+![Light Mode Screenshot](https://i.ibb.co/1F5ggtw/light-mode.jpg)
 
 ---
 
-🎥 Demo Video
+🎥 Short Demo Video
 
 🔗 Watch Demo Video on Google Drive
 
-(Upload your short demo video to Google Drive or YouTube, set it to “Anyone with the link can view,” and paste the link above.)
+👉 [Short Video link](https://drive.google.com/file/d/1H2s909ctglu3IDjkGYJ2H726x0kdhMEW/view?usp=sharing.)
 
 
 ---
