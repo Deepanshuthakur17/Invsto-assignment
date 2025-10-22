@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  background: #10d8c4 url('/images/icon-slider.svg') no-repeat center;
+  background-size: 50%;
+  box-shadow: 0px 15px 30px rgba(0, 255, 231, 0.6);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 40px;
+  height: 40px;
+  background: #10d8c4 url('/images/icon-slider.svg') no-repeat center;
+  background-size: 50%;
+  box-shadow: 0px 15px 30px rgba(0, 255, 231, 0.6);
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+}
