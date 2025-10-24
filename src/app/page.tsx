@@ -36,7 +36,7 @@ const PricingComponent = () => {
   return (
     <div
       className={`min-h-screen relative overflow-hidden transition-colors duration-500 ${
-        darkMode ? "bg-gray-900" : "bg-[hsl(230,100%,99%)]"
+        darkMode ? "bg-gray-900" : "bg-[#fafbff]"
       }`}
     >
       <div
@@ -137,14 +137,14 @@ const PricingComponent = () => {
       >
         <h1
           className={`text-[24px] md:text-[30px] font-bold mb-2 transition-colors duration-500 ${
-            darkMode ? "text-white" : "text-[hsl(227,35%,25%)]"
+            darkMode ? "text-white" : "text-[#293356]"
           }`}
         >
           Simple, traffic-based pricing
         </h1>
         <p
           className={`text-center mx-auto px-4 md:px-6 transition-colors duration-500 ${
-            darkMode ? "text-gray-300" : "text-[hsl(225,20%,60%)]"
+            darkMode ? "text-gray-300" : "text-[#858fad]"
           }`}
         >
           Sign-up for our 30-day trial. No credit card required.
@@ -167,7 +167,7 @@ const PricingComponent = () => {
             {/* Pageviews - First on mobile, Left on desktop */}
             <p
               className={`mt-2 uppercase font-bold md:text-lg text-md tracking-wider text-center md:text-left mb-8 transition-all duration-500 ${
-                darkMode ? "text-gray-300" : "text-[hsl(225,20%,60%)]"
+                darkMode ? "text-gray-300" : "text-[#858fad]"
               }`}
             >
               {currentPricing.pageviews} PAGEVIEWS
@@ -177,11 +177,11 @@ const PricingComponent = () => {
             <div className="my-10 md:my-15 relative">
               <div
                 className={`h-2 rounded-full overflow-hidden transition-colors duration-500 ${
-                  darkMode ? "bg-gray-700" : "bg-[hsl(224,65%,95%)]"
+                  darkMode ? "bg-gray-700" : "bg-[#eaeefb]"
                 }`}
               >
                 <div
-                  className="h-full bg-[hsl(174,77%,80%)] rounded-full transition-all duration-300 ease-in-out"
+                  className="h-full bg-[#a5f3eb] rounded-full transition-all duration-300 ease-in-out"
                   style={{ width: `${sliderValue}%` }}
                 />
               </div>
@@ -220,7 +220,7 @@ const PricingComponent = () => {
             <div className="text-center md:text-right md:absolute md:top-10 md:right-12">
               <p
                 className={`flex items-center justify-center md:justify-end transition-all duration-500 ${
-                  darkMode ? "text-white" : "text-[hsl(227,35%,25%)]"
+                  darkMode ? "text-white" : "text-[#293356]"
                 }`}
               >
                 <span className="text-4xl md:text-5xl font-bold animate-price">
@@ -228,7 +228,7 @@ const PricingComponent = () => {
                 </span>
                 <span
                   className={`ml-2 transition-colors duration-500 ${
-                    darkMode ? "text-gray-300" : "text-[hsl(225,20%,60%)]"
+                    darkMode ? "text-gray-300" : "text-[#858fad]"
                   }`}
                 >
                   {yearlyBilling ? "/ year" : "/ month"}
@@ -255,7 +255,7 @@ const PricingComponent = () => {
             {/* monthly/yearly toggle */}
             <div
               className={`flex items-center justify-center text-sm my-4 md:mt-10 mt-10 transition-colors duration-500 ${
-                darkMode ? "text-gray-300" : "text-[hsl(225,20%,60%)]"
+                darkMode ? "text-gray-300" : "text-[#858fad]"
               }`}
             >
               <span className="mr-3">Monthly Billing</span>
@@ -287,7 +287,7 @@ const PricingComponent = () => {
   </div>
 </label>
               <span className="ml-3">Yearly Billing</span>
-              <span className="ml-2 bg-[hsl(14,92%,95%)] text-[hsl(15,100%,30%)] text-xs px-2 py-1 rounded-full">
+              <span className="ml-2 bg-[#feece7] text-[#992600] text-xs px-2 py-1 rounded-full">
                 25% discount
               </span>
             </div>
@@ -309,7 +309,7 @@ const PricingComponent = () => {
                 <li
                   key={index}
                   className={`flex items-center justify-center md:justify-start text-sm transition-all duration-500 ${
-                    darkMode ? "text-gray-300" : "text-[hsl(225,20%,60%)]"
+                    darkMode ? "text-gray-300" : "text-[#858fad]"
                   } ${
                     isVisible
                       ? "opacity-100 transform translate-x-0"
@@ -317,7 +317,7 @@ const PricingComponent = () => {
                   }`}
                   style={{ transitionDelay: `${index * 150 + 700}ms` }}
                 >
-                  <span className="mr-4 text-[hsl(174,86%,45%)]">✓</span>
+                  <span className="mr-4 text-[#7962fa]">✓</span>
                   {item}
                 </li>
               ))}
@@ -326,10 +326,10 @@ const PricingComponent = () => {
             {/* trail button */}
             <div className="flex justify-center md:justify-end md:self-center">
               <button
-                className={`class="w-auto px-8 md:px-12 rounded-full py-3 text-sm font-bold transition-colors cursor-pointer bg-[hsl(174,86%,35%)] text-white hover:bg-teal-500 hover:text-gray-800" ${
+                className={`class="w-auto px-8 md:px-12 rounded-full py-3 text-sm font-bold transition-colors cursor-pointer bg-[#7962fa] text-white hover:bg-[#705ddaef] hover:text-gray-800" ${
                   darkMode
-                    ? "bg-[hsl(174,86%,45%)] text-white hover:bg-teal-500"
-                    : "bg-[hsl(227,35%,25%)] text-[hsl(226,100%,87%)] hover:text-white"
+                    ? "bg-[#7962fa] text-white hover:bg-[#705ddaef]"
+                    : "bg-[#293356] text-[#bdccff] hover:text-white"
                 }`}
               >
                 Start my trial
