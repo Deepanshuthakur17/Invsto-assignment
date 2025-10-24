@@ -181,7 +181,7 @@ const PricingComponent = () => {
                 }`}
               >
                 <div
-                  className="h-full bg-[#a5f3eb] rounded-full transition-all duration-300 ease-in-out"
+                  className="h-full bg-[#8f82d9fe] rounded-full transition-all duration-300 ease-in-out"
                   style={{ width: `${sliderValue}%` }}
                 />
               </div>
@@ -192,7 +192,7 @@ const PricingComponent = () => {
                   transform: `translateX(-50%) translateY(-50%)`,
                 }}
               >
-                <div className="h-10 w-10 mt-1 rounded-full flex items-center justify-center transition-all duration-300 ease-in-out bg-[hsl(174,86%,45%)] shadow-lg hover:opacity-90 cursor-pointer hover:scale-110">
+                <div className="h-10 w-10 mt-1 rounded-full flex items-center justify-center transition-all duration-300 ease-in-out bg-[#7962fa] shadow-lg hover:opacity-90 cursor-pointer hover:scale-110">
                   <Image
                     src="/images/icon-slider.svg"
                     width={16}
