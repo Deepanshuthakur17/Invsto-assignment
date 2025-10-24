@@ -165,10 +165,16 @@ INVSTO-ASSIGNMENT/
 <div align="center">
 <h2 style="background: linear-gradient(90deg,#10b981,#9333ea); -webkit-background-clip: text; color: transparent;">📬 Connect with Me</h2>
 <p align="center">
-  <a href="https://deepanshu-thakur-portfolio.vercel.app/" target="_blank">🌐 Portfolio</a> |
-  <a href="https://www.linkedin.com/in/deepanshu-thakur-1ab5a4330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">💼 LinkedIn</a> |
-  <a href="https://github.com/Deepanshuthakur17" target="_blank">🐙 GitHub</a>
-</p>
+    <a href="https://deepanshu-thakur-portfolio.vercel.app/" target="_blank">
+      <img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" width="48" height="48" style="margin: 0 10px;" />
+    </a>
+    <a href="https://www.linkedin.com/in/deepanshu-thakur-1ab5a4330" target="_blank">
+      <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" width="48" height="48" style="margin: 0 10px;" />
+    </a>
+    <a href="https://github.com/Deepanshuthakur17" target="_blank">
+      <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="48" height="48" style="margin: 0 10px;" />
+    </a>
+  </p>
 </div>
 
 <hr>
