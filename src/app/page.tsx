@@ -326,7 +326,7 @@ const PricingComponent = () => {
             {/* trail button */}
             <div className="flex justify-center md:justify-end md:self-center">
               <button
-                className={`class="w-auto px-8 md:px-12 rounded-full py-3 text-sm font-bold transition-colors cursor-pointer bg-[hsl(174,86%,35%)] text-white hover:bg-teal-500" ${
+                className={`class="w-auto px-8 md:px-12 rounded-full py-3 text-sm font-bold transition-colors cursor-pointer bg-[hsl(174,86%,35%)] text-white hover:bg-teal-500 hover:text-gray-800" ${
                   darkMode
                     ? "bg-[hsl(174,86%,45%)] text-white hover:bg-teal-500"
                     : "bg-[hsl(227,35%,25%)] text-[hsl(226,100%,87%)] hover:text-white"
