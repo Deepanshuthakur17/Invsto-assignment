@@ -163,7 +163,7 @@ const PricingComponent = () => {
             darkMode ? "bg-gray-800" : "bg-white"
           }`}
         >
-          <div className="px-6 pt-10 pb-8 md:px-12">
+          <div className="px-2 pt-10 pb-4">
             {/* Pageviews - First on mobile, Left on desktop */}
             <p
               className={`mt-2 uppercase font-bold md:text-lg text-md tracking-wider text-center md:text-left mb-8 transition-all duration-500 ${
@@ -270,14 +270,14 @@ const PricingComponent = () => {
   <div
     className={`w-12 h-6 rounded-full transition-all duration-300 ${
       yearlyBilling
-        ? "bg-[hsl(174,77%,80%)]" 
+        ? "bg-[#a5f3eb]" 
         : darkMode
           ? "bg-gray-600"
-          : "bg-[hsl(223,50%,87%)]"
+          : "bg-[#cdd7ee]"
     }`}
   >
     <div
-      className="w-4 h-4 mt-1 ml-1 bg-white rounded-full shadow transform transition-all duration-300"
+      className="w-4 h-4 mt-1 ml-1 bg-white rounded-full shadow transform transition-all duration-300 flex"
       style={{
         transform: yearlyBilling
           ? "translateX(24px)"
@@ -287,8 +287,8 @@ const PricingComponent = () => {
   </div>
 </label>
               <span className="ml-3">Yearly Billing</span>
-              <span className="ml-2 bg-[#feece7] text-[#992600] text-xs px-2 py-1 rounded-full">
-                25% discount
+              <span className="ml-2 bg-[#feece7] text-[#992600] text-xs px-1 sm:px-1 sm:py-1 md:px-1 md:py-1 py-1 lg:px-2 lg:py-2 rounded-full inline-flex">
+                -25% discount
               </span>
             </div>
           </div>
