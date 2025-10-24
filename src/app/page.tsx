@@ -45,6 +45,7 @@ const PricingComponent = () => {
         }`}
       >
         <button
+        aria-label="Mode-toggle"
           onClick={() => setDarkMode(!darkMode)}
           className={`p-2 rounded-full transition-all duration-300 transform hover:scale-110 ${
             darkMode
@@ -204,6 +205,7 @@ const PricingComponent = () => {
                 </div>
               </div>
               <input
+              aria-label="Contrast adjustment slider"
                 type="range"
                 min="0"
                 max="100"
@@ -257,8 +259,9 @@ const PricingComponent = () => {
               }`}
             >
               <span className="mr-3">Monthly Billing</span>
-<label className="relative inline-flex items-center cursor-pointer">
+<label className="relative inline-flex items-center cursor-pointer" aria-label="checkbox-label">
   <input
+  aria-label="checkbox"
     type="checkbox"
     className="sr-only"
     checked={yearlyBilling}
@@ -284,7 +287,7 @@ const PricingComponent = () => {
   </div>
 </label>
               <span className="ml-3">Yearly Billing</span>
-              <span className="ml-2 bg-[hsl(14,92%,95%)] text-[hsl(15,100%,70%)] text-xs px-2 py-1 rounded-full">
+              <span className="ml-2 bg-[hsl(14,92%,95%)] text-[hsl(15,100%,30%)] text-xs px-2 py-1 rounded-full">
                 25% discount
               </span>
             </div>
@@ -323,7 +326,7 @@ const PricingComponent = () => {
             {/* trail button */}
             <div className="flex justify-center md:justify-end md:self-center">
               <button
-                className={`w-auto px-8 md:px-12 rounded-full py-3 text-sm font-bold transition-colors cursor-pointer ${
+                className={`class="w-auto px-8 md:px-12 rounded-full py-3 text-sm font-bold transition-colors cursor-pointer bg-[hsl(174,86%,35%)] text-white hover:bg-teal-500" ${
                   darkMode
                     ? "bg-[hsl(174,86%,45%)] text-white hover:bg-teal-500"
                     : "bg-[hsl(227,35%,25%)] text-[hsl(226,100%,87%)] hover:text-white"
